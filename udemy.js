@@ -28,3 +28,34 @@ switch (num) {
         console.log("not good");
         break;
 }
+
+//let num = 50;
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// } while (num < 55);
+
+for (let i = 1; i < 8; i++) {
+    if (i == 6) continue;
+    console.log(i);
+}
+
+let x = 5;
+console.log(x++);
+
+let y = 1;
+let z = y = 2;
+console.log(z);
+
+console.log([ ] + 1 + 2);
+ console.log("1"[0]);
+ console.log(2 && 1 && null && 0 && undefined);
+ console.log(null ||  2&&3 || 4);
+ console.log(+"Infinity" );
+ console.log("ёжик" > "яблоко");
+ console.log(0 || "" ||  2 ||  undefined || true || false);
