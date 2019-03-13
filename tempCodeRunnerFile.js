@@ -1,17 +1,4 @@
-let num = 50;
-
-if (num < 48) {
-    console.log("false");
-} else if (num > 100) {
-    console.log("false");
-} else {
-    console.log("true");
-}
-
-(num == 50) ? console.log("true") : console.log("false");
-
-
-switch (num) {
+switch (num == 50) {
     case num < 49:
         console.log("false");
         break;
@@ -27,4 +14,7 @@ switch (num) {
     default:
         console.log("not good");
         break;
+    
+
+
 }
