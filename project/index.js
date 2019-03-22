@@ -113,9 +113,11 @@ checkSevings();
 
 function chooseOptExpenses() {
     for (let i = 1; i <= 3; i++){
+        let count = 1;
         let optExpnses = +prompt("Статья необязательных расходов?");
-        appData.optExpnses = optExpnses;
+        appData.optionalExpenses = optExpnses;
+        count++;
     }
 }
 
-chooseExpenses();
+chooseOptExpenses();
